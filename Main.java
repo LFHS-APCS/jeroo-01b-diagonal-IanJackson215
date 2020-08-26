@@ -21,6 +21,30 @@ public class Main implements Directions {
      * Put your main Jeroo code here.
      */
     public static void runJerooCode() {
+        
+        Jeroo kim = new Jeroo(0, 0, EAST, 5);
+  kim.plant();
+  kim.turn(LEFT);
+  kim.turn(LEFT);
+  kim.turn(LEFT);
+  kim.turn(LEFT);
+  kim.hop();
+  kim.turn(LEFT);
+  kim.turn(LEFT);
+  kim.turn(LEFT);
+  kim.hop();
+  kim.plant();
+  kim.hop();
+  kim.turn(LEFT);
+  kim.hop();
+  kim.plant();
+  kim.hop();
+  kim.turn(LEFT);
+  kim.turn(LEFT);
+  kim.turn(LEFT);
+  kim.hop();
+  kim.plant();
+  kim.hop();
      
     }
 
